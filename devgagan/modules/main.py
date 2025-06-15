@@ -246,13 +246,13 @@ async def batch_link(_, message):
         return
         
  # Create an inline button for the channel link
-    join_button = InlineKeyboardButton("Join Channel", url="https://t.me/team_spy_pro")
+    join_button = InlineKeyboardButton("Join Channel", url="https://t.me/jgckco")
     keyboard = InlineKeyboardMarkup([[join_button]])
 
     # Send and Pin message to indicate the batch process has started
     pin_msg = await app.send_message(
         user_id,
-        "Batch process started ⚡\n__Processing: 0/{cl}__\n\n**__Powered by Team SPY__**",
+        "Batch process started ⚡\n__Processing: 0/{cl}__\n\n**__Powered by 🦅Golden Eagle🦅__**",
         reply_markup=keyboard
     )
     try:
